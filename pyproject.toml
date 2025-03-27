@@ -1,1 +1,22 @@
+[project]
+name = "langgraph_chatbot"
+version = "0.1.0"
+description = "A support chatbot built with LangGraph, featuring state management, tool integration, memory checkpointing, and human-in-the-loop."
+authors = [{name = "Onur Unal"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "langgraph",
+    "langsmith",
+    "langchain_anthropic",
+    "langchain_community",
+    "tavily-python",
+    "python-dotenv"
+]
 
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
