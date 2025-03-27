@@ -1,1 +1,18 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
 
